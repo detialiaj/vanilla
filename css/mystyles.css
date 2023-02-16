@@ -15,6 +15,7 @@
 .title span {
   color: pink;
 }
+
 .line {
   font-weight: bold;
   color: pink;
@@ -33,9 +34,11 @@
 footer {
   background-color: black;
 }
+
 .copyright {
   background-color: black;
 }
+
 .copyright p {
   font-size: 14px !important;
   color: gray;
@@ -176,4 +179,20 @@ th {
   font-size: 100px;
   text-align: center;
   margin: 0 auto;
+}
+
+.round-border-tl {
+  border-top-left-radius: 20%;
+}
+
+.round-border-tr {
+  border-top-right-radius: 20%;
+}
+
+.round-border-br {
+  border-bottom-right-radius: 20%;
+}
+
+.round-border-bl {
+  border-bottom-left-radius: 20%;
 }
